@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53C431B823D1D03900A0AA2B /* Undine WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 53C431B723D1D03900A0AA2B /* Undine WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		53C431BE23D1D03900A0AA2B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C431BC23D1D03900A0AA2B /* Interface.storyboard */; };
+		53C431C023D1D03B00A0AA2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C431BF23D1D03B00A0AA2B /* Assets.xcassets */; };
+		53C431C723D1D03B00A0AA2B /* Undine WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 53C431C623D1D03B00A0AA2B /* Undine WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		53C431CE23D1D03B00A0AA2B /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C431CD23D1D03B00A0AA2B /* HostingController.swift */; };
+		53C431D023D1D03B00A0AA2B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C431CF23D1D03B00A0AA2B /* ExtensionDelegate.swift */; };
+		53C431D223D1D03B00A0AA2B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C431D123D1D03B00A0AA2B /* NotificationController.swift */; };
+		53C431D423D1D03B00A0AA2B /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C431D323D1D03B00A0AA2B /* NotificationView.swift */; };
+		53C431D623D1D03B00A0AA2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C431D523D1D03B00A0AA2B /* Assets.xcassets */; };
+		53C431D923D1D03B00A0AA2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C431D823D1D03B00A0AA2B /* Preview Assets.xcassets */; };
+		53C431ED23D1D20F00A0AA2B /* WaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C431EC23D1D20F00A0AA2B /* WaterView.swift */; };
+		53C431EF23D1D24E00A0AA2B /* WaterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C431EE23D1D24E00A0AA2B /* WaterViewModel.swift */; };
+		53C431F123D1D28000A0AA2B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C431F023D1D28000A0AA2B /* MenuView.swift */; };
+		53C431F323D1D29900A0AA2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C431F223D1D29900A0AA2B /* Assets.xcassets */; };
+		53C431F523D1D32800A0AA2B /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C431F423D1D32800A0AA2B /* Wave.swift */; };
+		53C431F723D1D34500A0AA2B /* WavingBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C431F623D1D34500A0AA2B /* WavingBackground.swift */; };
+		53C431F923D1D35D00A0AA2B /* DrinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C431F823D1D35C00A0AA2B /* DrinkButton.swift */; };
+		53C431FB23D1D3BD00A0AA2B /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C431FA23D1D3BD00A0AA2B /* Double+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53C431B923D1D03900A0AA2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53C431AD23D1D03900A0AA2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53C431B623D1D03900A0AA2B;
+			remoteInfo = "Undine WatchKit App";
+		};
+		53C431C823D1D03B00A0AA2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53C431AD23D1D03900A0AA2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53C431C523D1D03B00A0AA2B;
+			remoteInfo = "Undine WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53C431E123D1D03B00A0AA2B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				53C431C723D1D03B00A0AA2B /* Undine WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C431E523D1D03B00A0AA2B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				53C431B823D1D03900A0AA2B /* Undine WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53C431B323D1D03900A0AA2B /* Undine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Undine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C431B723D1D03900A0AA2B /* Undine WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Undine WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C431BD23D1D03900A0AA2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		53C431BF23D1D03B00A0AA2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53C431C123D1D03B00A0AA2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C431C623D1D03B00A0AA2B /* Undine WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Undine WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C431CD23D1D03B00A0AA2B /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		53C431CF23D1D03B00A0AA2B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		53C431D123D1D03B00A0AA2B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		53C431D323D1D03B00A0AA2B /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		53C431D523D1D03B00A0AA2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53C431D823D1D03B00A0AA2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53C431DA23D1D03B00A0AA2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C431DB23D1D03B00A0AA2B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		53C431EC23D1D20F00A0AA2B /* WaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterView.swift; sourceTree = "<group>"; };
+		53C431EE23D1D24E00A0AA2B /* WaterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterViewModel.swift; sourceTree = "<group>"; };
+		53C431F023D1D28000A0AA2B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		53C431F223D1D29900A0AA2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53C431F423D1D32800A0AA2B /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
+		53C431F623D1D34500A0AA2B /* WavingBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavingBackground.swift; sourceTree = "<group>"; };
+		53C431F823D1D35C00A0AA2B /* DrinkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkButton.swift; sourceTree = "<group>"; };
+		53C431FA23D1D3BD00A0AA2B /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53C431C323D1D03B00A0AA2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53C431AC23D1D03900A0AA2B = {
+			isa = PBXGroup;
+			children = (
+				53C431BB23D1D03900A0AA2B /* Undine WatchKit App */,
+				53C431CA23D1D03B00A0AA2B /* Undine WatchKit Extension */,
+				53C431B423D1D03900A0AA2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53C431B423D1D03900A0AA2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53C431B323D1D03900A0AA2B /* Undine.app */,
+				53C431B723D1D03900A0AA2B /* Undine WatchKit App.app */,
+				53C431C623D1D03B00A0AA2B /* Undine WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53C431BB23D1D03900A0AA2B /* Undine WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				53C431BC23D1D03900A0AA2B /* Interface.storyboard */,
+				53C431BF23D1D03B00A0AA2B /* Assets.xcassets */,
+				53C431C123D1D03B00A0AA2B /* Info.plist */,
+			);
+			path = "Undine WatchKit App";
+			sourceTree = "<group>";
+		};
+		53C431CA23D1D03B00A0AA2B /* Undine WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				53C431E923D1D12200A0AA2B /* Screens */,
+				53C431EA23D1D15200A0AA2B /* Widgets */,
+				53C431CD23D1D03B00A0AA2B /* HostingController.swift */,
+				53C431CF23D1D03B00A0AA2B /* ExtensionDelegate.swift */,
+				53C431D123D1D03B00A0AA2B /* NotificationController.swift */,
+				53C431D323D1D03B00A0AA2B /* NotificationView.swift */,
+				53C431EB23D1D17300A0AA2B /* Extensions */,
+				53C431D523D1D03B00A0AA2B /* Assets.xcassets */,
+				53C431DA23D1D03B00A0AA2B /* Info.plist */,
+				53C431DB23D1D03B00A0AA2B /* PushNotificationPayload.apns */,
+				53C431D723D1D03B00A0AA2B /* Preview Content */,
+			);
+			path = "Undine WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		53C431D723D1D03B00A0AA2B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				53C431D823D1D03B00A0AA2B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		53C431E923D1D12200A0AA2B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				53C431EC23D1D20F00A0AA2B /* WaterView.swift */,
+				53C431EE23D1D24E00A0AA2B /* WaterViewModel.swift */,
+				53C431F023D1D28000A0AA2B /* MenuView.swift */,
+				53C431F223D1D29900A0AA2B /* Assets.xcassets */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		53C431EA23D1D15200A0AA2B /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				53C431F423D1D32800A0AA2B /* Wave.swift */,
+				53C431F623D1D34500A0AA2B /* WavingBackground.swift */,
+				53C431F823D1D35C00A0AA2B /* DrinkButton.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		53C431EB23D1D17300A0AA2B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				53C431FA23D1D3BD00A0AA2B /* Double+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53C431B223D1D03900A0AA2B /* Undine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C431E623D1D03B00A0AA2B /* Build configuration list for PBXNativeTarget "Undine" */;
+			buildPhases = (
+				53C431B123D1D03900A0AA2B /* Resources */,
+				53C431E523D1D03B00A0AA2B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53C431BA23D1D03900A0AA2B /* PBXTargetDependency */,
+			);
+			name = Undine;
+			productName = Undine;
+			productReference = 53C431B323D1D03900A0AA2B /* Undine.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		53C431B623D1D03900A0AA2B /* Undine WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C431E223D1D03B00A0AA2B /* Build configuration list for PBXNativeTarget "Undine WatchKit App" */;
+			buildPhases = (
+				53C431B523D1D03900A0AA2B /* Resources */,
+				53C431E123D1D03B00A0AA2B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53C431C923D1D03B00A0AA2B /* PBXTargetDependency */,
+			);
+			name = "Undine WatchKit App";
+			productName = "Undine WatchKit App";
+			productReference = 53C431B723D1D03900A0AA2B /* Undine WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		53C431C523D1D03B00A0AA2B /* Undine WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C431DE23D1D03B00A0AA2B /* Build configuration list for PBXNativeTarget "Undine WatchKit Extension" */;
+			buildPhases = (
+				53C431C223D1D03B00A0AA2B /* Sources */,
+				53C431C323D1D03B00A0AA2B /* Frameworks */,
+				53C431C423D1D03B00A0AA2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Undine WatchKit Extension";
+			productName = "Undine WatchKit Extension";
+			productReference = 53C431C623D1D03B00A0AA2B /* Undine WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53C431AD23D1D03900A0AA2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "賈凱民";
+				TargetAttributes = {
+					53C431B223D1D03900A0AA2B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					53C431B623D1D03900A0AA2B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					53C431C523D1D03B00A0AA2B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 53C431B023D1D03900A0AA2B /* Build configuration list for PBXProject "Undine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53C431AC23D1D03900A0AA2B;
+			productRefGroup = 53C431B423D1D03900A0AA2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53C431B223D1D03900A0AA2B /* Undine */,
+				53C431B623D1D03900A0AA2B /* Undine WatchKit App */,
+				53C431C523D1D03B00A0AA2B /* Undine WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53C431B123D1D03900A0AA2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C431B523D1D03900A0AA2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C431C023D1D03B00A0AA2B /* Assets.xcassets in Resources */,
+				53C431BE23D1D03900A0AA2B /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C431C423D1D03B00A0AA2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C431D923D1D03B00A0AA2B /* Preview Assets.xcassets in Resources */,
+				53C431F323D1D29900A0AA2B /* Assets.xcassets in Resources */,
+				53C431D623D1D03B00A0AA2B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53C431C223D1D03B00A0AA2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C431F923D1D35D00A0AA2B /* DrinkButton.swift in Sources */,
+				53C431F523D1D32800A0AA2B /* Wave.swift in Sources */,
+				53C431F123D1D28000A0AA2B /* MenuView.swift in Sources */,
+				53C431EF23D1D24E00A0AA2B /* WaterViewModel.swift in Sources */,
+				53C431ED23D1D20F00A0AA2B /* WaterView.swift in Sources */,
+				53C431F723D1D34500A0AA2B /* WavingBackground.swift in Sources */,
+				53C431CE23D1D03B00A0AA2B /* HostingController.swift in Sources */,
+				53C431D223D1D03B00A0AA2B /* NotificationController.swift in Sources */,
+				53C431D023D1D03B00A0AA2B /* ExtensionDelegate.swift in Sources */,
+				53C431FB23D1D3BD00A0AA2B /* Double+Extensions.swift in Sources */,
+				53C431D423D1D03B00A0AA2B /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53C431BA23D1D03900A0AA2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53C431B623D1D03900A0AA2B /* Undine WatchKit App */;
+			targetProxy = 53C431B923D1D03900A0AA2B /* PBXContainerItemProxy */;
+		};
+		53C431C923D1D03B00A0AA2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53C431C523D1D03B00A0AA2B /* Undine WatchKit Extension */;
+			targetProxy = 53C431C823D1D03B00A0AA2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53C431BC23D1D03900A0AA2B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53C431BD23D1D03900A0AA2B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53C431DC23D1D03B00A0AA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53C431DD23D1D03B00A0AA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53C431DF23D1D03B00A0AA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Undine WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = ALWRULRD3X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Undine WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dynamis.Undine.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		53C431E023D1D03B00A0AA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Undine WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = ALWRULRD3X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Undine WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dynamis.Undine.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		53C431E323D1D03B00A0AA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALWRULRD3X;
+				IBSC_MODULE = Undine_WatchKit_Extension;
+				INFOPLIST_FILE = "Undine WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dynamis.Undine.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		53C431E423D1D03B00A0AA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALWRULRD3X;
+				IBSC_MODULE = Undine_WatchKit_Extension;
+				INFOPLIST_FILE = "Undine WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dynamis.Undine.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		53C431E723D1D03B00A0AA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ALWRULRD3X;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dynamis.Undine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		53C431E823D1D03B00A0AA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ALWRULRD3X;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dynamis.Undine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53C431B023D1D03900A0AA2B /* Build configuration list for PBXProject "Undine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C431DC23D1D03B00A0AA2B /* Debug */,
+				53C431DD23D1D03B00A0AA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C431DE23D1D03B00A0AA2B /* Build configuration list for PBXNativeTarget "Undine WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C431DF23D1D03B00A0AA2B /* Debug */,
+				53C431E023D1D03B00A0AA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C431E223D1D03B00A0AA2B /* Build configuration list for PBXNativeTarget "Undine WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C431E323D1D03B00A0AA2B /* Debug */,
+				53C431E423D1D03B00A0AA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C431E623D1D03B00A0AA2B /* Build configuration list for PBXNativeTarget "Undine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C431E723D1D03B00A0AA2B /* Debug */,
+				53C431E823D1D03B00A0AA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53C431AD23D1D03900A0AA2B /* Project object */;
+}
