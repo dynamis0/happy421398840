@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="kagaiminのWebページです。">
+  <meta name="keywords" content="skylines,kagaimin,pixiv,niconico,w3shool">
+  <title>skylines</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+	<div id="header">
+		<header>
+			<h1><img src="img/t.png" alt="sky lines" width="300px" height="150px"></h1>
+		</header>
+	</div>
+	
+	<nav>
+	<div class="radmenu"><a href="javaScript:" class="show" >START</a>
+	  <ul>
+	    <li>
+		<a href="javaScript:firstText()" class="first">名前</a>
+	    </li>
+	    <li>
+		<a href="javaScript:secendText()" class="secend">スキル</a>
+	    </li>
+	    <li>
+		<a href="javaScript:thirdText()" class="third">経歴</a>
+	    </li>
+	    <li>
+		<a href="javaScript:fourthText()" class="fourth">生年月日</a>
+	    </li>
+	  </ul>
+	</div>
+	</nav>
+	
+	<script src="js/index.js"></script>
+	<script src="js/onclick.js"></script>
+
+	<div id="name" class="nameopne">
+		<p>名前&#58;賈凱民</p>
+		<p>性別&#58;男性</p>
+		<p>趣味&#58;アニメ&#8226;ゲーム&#8226;プログラミング関係</p>
+		<p>種族&#58;一応人類</p>
+	</div>
+	
+	<div id="skill" class="skillopne">
+		<p>スキル&#58;PHP</p>
+		<p>スキル&#58;HTML</p>
+		<p>スキル&#58;css</p>
+		<p>スキル&#58;一応JAVA</p>
+	</div>
+	
+	<div id="carrer" class="carreropne">
+		<p>経歴&#58;特にないです。昔ゲーム会社で働いた事があって。知識の吸収能力が速いだげです。</p>
+	</div>
+	
+	<div id="birthday" class="birthdayopne">
+		<p>生年月日&#58;1993年8月28日</p>
+		<p>生まれる都市&#58;鎮江市</p>
+		<p>まぁ～極普通の子です。</p>
+	</div>
+		
+	<div class="container demo-1">
+		<div class="content">
+			<div id="large-header" class="large-header">
+				<canvas id="demo-canvas"></canvas>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/TweenLite.min.js"></script>
+	<script src="js/EasePack.min.js"></script>
+	<script src="js/rAF.js"></script>
+	<script src="js/demo-1.js"></script>
+	
+	<footer id="footer">
+	  <p><a href="http://www.nicovideo.jp/" target="_blank"><img src="img/url1.jpg" alt="niconico" title="説明する必要がないです"></a></p>
+	  <p><a href="http://www.w3school.com.cn/" target="_blank"><img src="img/url2.gif" alt="w3school" title="cssやjava関連のサイトです"></a></p>
+	  <p><a href="http://www.pixiv.net/" target="_blank"><img src="img/url3.jpg" alt="pixiv" title="みんな大好きなイラストが集めたサイトです"></a></p>
+	  <p><small id="cop">Copyright &#169; 2015 Sky Lines AllRight Reserved.</small></p>
+	</footer>
+</body>
+</html>
